@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#icone-img{
+    width: 70px;
+    margin: 10px;
+}
+#bb1>h1{
+    color: rgb(173, 98, 178);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+#bb1{
+    background-color: white;
+    border: 1px solid rgb(176, 173, 173);
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+#bb1:focus{
+    outline: none;
+    border: 1.5px solid rgb(173, 98, 178);
+}
+.hoot{
+    background-color: #FEEDF3;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    background: linear-gradient(to right,#FEEDF3,rgb(210, 178, 214));
+}
+#text-hoot{
+    font-family: "Bitcount Ink", system-ui;
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 30px;
+    color: wheat;
+}
+.icon{
+    display: flex;
+    margin-left: 30px;
+}
+ .kategoriya{
+    display: flex;
+    justify-content: space-between;
+ }
+.left{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+#search{
+    width: 650px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: white;
+    border: 1px solid white;
+    padding-left:  20px;
+    color: rgb(173, 98, 178);
+}
+#search:focus{
+    border: 1px solid white;
+    outline: none;
+    color: rgb(173, 98, 178);
+    border: 1.5px solid rgb(173, 98, 178);
+}
+#navigat{
+    margin-top: 30px;
+}
+.navi{
+    margin-right: 20px;
+    color:rgb(173, 98, 178);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+#header{
+    width: 100vw;
+    background: linear-gradient(to right,#FEEDF3,rgb(210, 178, 214));
+}
+body{
+    background-color: #fff;
+}
+#kg-1{
+    margin-right: 20px;
+}
